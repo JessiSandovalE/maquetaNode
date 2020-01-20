@@ -1,0 +1,42 @@
+{
+  "name": "parking",
+  "version": "1.0.0",
+  "description": "Microservicio para la busqueda NIDOO",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "set ENV=dev && node ./bin/www",
+    "local": "npm i && nodemon ./bin/www",
+    "dev": "npm i && node ./bin/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^8.0.1",
+    "@hapi/joi": "^16.1.7",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "express-validator": "^6.2.0",
+    "http": "0.0.0",
+    "http-errors": "^1.7.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.13",
+    "mysql": "^2.16.0",
+    "node-cron": "^2.0.3",
+    "pm2": "^4.2.0",
+    "pug": "^2.0.3",
+    "request": "^2.88.0",
+    "tsscmp": "^1.0.6",
+    "underscore": "^1.9.1",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
